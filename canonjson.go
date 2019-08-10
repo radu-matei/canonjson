@@ -34,7 +34,7 @@ func main() {
 	if err != nil {
 		fail(err.Error())
 	}
-	fmt.Println(string(out))
+	fmt.Printf(string(out))
 
 }
 
